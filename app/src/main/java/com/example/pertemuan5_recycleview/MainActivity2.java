@@ -68,10 +68,10 @@ public class MainActivity2 extends AppCompatActivity {
                 if (id == R.id.nav_profile) {
                     Intent a = new Intent(MainActivity2.this, MainActivity.class);
                     startActivity(a);
-                } else if (id == R.id.nav_reviews) {
+                } else if (id == R.id.nav_alarm) {
                     Intent a = new Intent(MainActivity2.this, MainActivity2.class);
                     startActivity(a);
-                } else if (id == R.id.nav_settings) {
+                } else if (id == R.id.nav_sql) {
                     Intent a = new Intent(MainActivity2.this, MainActivity3.class);
                     startActivity(a);
                 }

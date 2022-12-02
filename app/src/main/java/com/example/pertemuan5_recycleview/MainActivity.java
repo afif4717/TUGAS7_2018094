@@ -48,12 +48,12 @@ public class MainActivity extends AppCompatActivity {
                                                                    if (id == R.id.nav_profile){
                                                                        Intent a = new Intent(MainActivity.this, MainActivity.class);
                                                                        startActivity(a);
-                                                                   }else if (id == R.id.nav_reviews){
+                                                                   }else if (id == R.id.nav_alarm){
                                                                        Intent a = new
                                                                                Intent(MainActivity.this,
                                                                                MainActivity2.class);
                                                                        startActivity(a);
-                                                                   }else if (id == R.id.nav_settings){
+                                                                   }else if (id == R.id.nav_sql){
                                                                        Intent a = new
                                                                                Intent(MainActivity.this, MainActivity3.class);
                                                                        startActivity(a);
