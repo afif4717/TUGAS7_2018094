@@ -3,8 +3,11 @@ package com.example.pertemuan5_recycleview;
 import static com.example.pertemuan5_recycleview.DBmain.TABLENAME;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
+
 import android.Manifest;
 import android.content.ContentValues;
 import android.content.Intent;
@@ -15,9 +18,12 @@ import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
+
+import com.google.android.material.navigation.NavigationView;
 import com.squareup.picasso.Picasso;
 import com.theartofdev.edmodo.cropper.CropImage;
 import com.example.pertemuan5_recycleview.databinding.ActivityMain3Binding;
@@ -26,6 +32,8 @@ import java.io.ByteArrayOutputStream;
 
 public class MainActivity3 extends AppCompatActivity {
     private ActivityMain3Binding binding;
+    private DrawerLayout dl;
+    private ActionBarDrawerToggle abdt;
     DBmain dBmain;
     SQLiteDatabase sqLiteDatabase;
     int id = 0;
@@ -59,6 +67,33 @@ public class MainActivity3 extends AppCompatActivity {
                         pickFromGallery();
                     }
                 }
+            }
+        });
+        dl = (DrawerLayout) findViewById(R.id.dl);
+        abdt = new ActionBarDrawerToggle(this, dl, R.string.Open, R.string.Close);
+        abdt.setDrawerIndicatorEnabled(true);
+        dl.addDrawerListener(abdt);
+        abdt.syncState();
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        NavigationView nav_view = (NavigationView) findViewById(R.id.nav_view);
+        nav_view.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                int id = item.getItemId();
+                if (id == R.id.nav_profile) {
+                    Intent a = new Intent(MainActivity3.this, MainActivity.class);
+                    startActivity(a);
+                } else if (id == R.id.nav_alarm) {
+                    Intent a = new Intent(MainActivity3.this, MainActivity2.class);
+                    startActivity(a);
+                } else if (id == R.id.nav_sql) {
+                    Intent a = new Intent(MainActivity3.this, MainActivity3.class);
+                    startActivity(a);
+                }else if (id == R.id.nav_api){
+                    Intent a = new Intent(MainActivity3.this, MainActivity4.class);
+                    startActivity(a);
+                }
+                return true;
             }
         });
     }
@@ -105,7 +140,7 @@ public class MainActivity3 extends AppCompatActivity {
                 cv.put("avatar", imageViewToBy(binding.edtimage));
                 cv.put("price", binding.edtprice.getText().toString());
                 sqLiteDatabase = dBmain.getWritableDatabase();
-                Long rec = sqLiteDatabase.insert("home", null, cv);
+                Long rec = sqLiteDatabase.insert("jenis", null, cv);
                 if (rec != null) {
                     Toast.makeText(MainActivity3.this, "Data Inserted", Toast.LENGTH_SHORT).show();
                     binding.edtname.setText("");
@@ -197,5 +232,9 @@ public class MainActivity3 extends AppCompatActivity {
                 Picasso.with(this).load(resultUri).into(binding.edtimage);
             }
         }
+    }
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        return abdt.onOptionsItemSelected(item) || super.onOptionsItemSelected(item);
     }
 }

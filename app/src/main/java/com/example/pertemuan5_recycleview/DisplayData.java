@@ -33,7 +33,7 @@ public class DisplayData extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent a = new Intent(DisplayData.this,
-                        MainActivity.class);
+                        MainActivity3.class);
                 startActivity(a);
             }
         });

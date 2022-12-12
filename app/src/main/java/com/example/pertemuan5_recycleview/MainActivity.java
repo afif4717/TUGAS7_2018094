@@ -17,6 +17,7 @@ import android.view.View;
 import com.example.pertemuan5_recycleview.databinding.ActivityMainBinding;
 import com.example.pertemuan5_recycleview.databinding.ActivityMainBinding;
 import com.example.pertemuan5_recycleview.databinding.ActivityMainBinding;
+import com.example.pertemuan5_recycleview.databinding.ActivityMainBinding;
 import com.google.android.material.navigation.NavigationView;
 public class MainActivity extends AppCompatActivity {
     private DrawerLayout dl;
@@ -56,6 +57,10 @@ public class MainActivity extends AppCompatActivity {
                                                                    }else if (id == R.id.nav_sql){
                                                                        Intent a = new
                                                                                Intent(MainActivity.this, MainActivity3.class);
+                                                                       startActivity(a);
+                                                                   }else if (id == R.id.nav_api){
+                                                                       Intent a = new
+                                                                               Intent(MainActivity.this, MainActivity4.class);
                                                                        startActivity(a);
                                                                    }
                                                                    return true;

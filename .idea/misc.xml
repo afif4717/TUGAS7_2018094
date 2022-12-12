@@ -4,20 +4,40 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/asus/Music/Tugas7/TUGAS6_2018094-main/app/src/main/res/layout/activity_main.xml" value="0.10326086956521739" />
+        <entry key="..\:/Users/asus/Music/Tugas8/TUGAS6_2018094-main/app/src/main/res/drawable-v24/ic_baseline_android_24.xml" value="0.116" />
+        <entry key="..\:/Users/asus/Music/Tugas8/TUGAS6_2018094-main/app/src/main/res/drawable-v24/ic_baseline_arrow_back_24.xml" value="0.116" />
+        <entry key="..\:/Users/asus/Music/Tugas8/TUGAS6_2018094-main/app/src/main/res/drawable-v24/ic_baseline_favorite_border_24.xml" value="0.116" />
+        <entry key="..\:/Users/asus/Music/Tugas8/TUGAS6_2018094-main/app/src/main/res/drawable-v24/ic_baseline_star_half_24.xml" value="0.116" />
+        <entry key="..\:/Users/asus/Music/Tugas8/TUGAS6_2018094-main/app/src/main/res/drawable-v24/ic_baseline_star_rate_24.xml" value="0.116" />
+        <entry key="..\:/Users/asus/Music/Tugas8/TUGAS6_2018094-main/app/src/main/res/drawable-v24/ic_chat.xml" value="0.116" />
+        <entry key="..\:/Users/asus/Music/Tugas8/TUGAS6_2018094-main/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.116" />
+        <entry key="..\:/Users/asus/Music/Tugas8/TUGAS6_2018094-main/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.116" />
+        <entry key="..\:/Users/asus/Music/Tugas8/TUGAS6_2018094-main/app/src/main/res/drawable-v24/ic_message.xml" value="0.116" />
         <entry key="..\:/Users/asus/Music/Tugas8/TUGAS6_2018094-main/app/src/main/res/drawable-v24/ic_sql.xml" value="0.116" />
         <entry key="..\:/Users/asus/Music/Tugas8/TUGAS6_2018094-main/app/src/main/res/drawable/ic_alarm.xml" value="0.116" />
         <entry key="..\:/Users/asus/Music/Tugas8/TUGAS6_2018094-main/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.116" />
         <entry key="..\:/Users/asus/Music/Tugas8/TUGAS6_2018094-main/app/src/main/res/drawable/ic_profile.xml" value="0.116" />
         <entry key="..\:/Users/asus/Music/Tugas8/TUGAS6_2018094-main/app/src/main/res/drawable/ic_reviews.xml" value="0.116" />
         <entry key="..\:/Users/asus/Music/Tugas8/TUGAS6_2018094-main/app/src/main/res/layout/activity_display_data.xml" value="0.18" />
-        <entry key="..\:/Users/asus/Music/Tugas8/TUGAS6_2018094-main/app/src/main/res/layout/activity_main.xml" value="0.10326086956521739" />
-        <entry key="..\:/Users/asus/Music/Tugas8/TUGAS6_2018094-main/app/src/main/res/layout/activity_main2.xml" value="0.10326086956521739" />
+        <entry key="..\:/Users/asus/Music/Tugas8/TUGAS6_2018094-main/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/asus/Music/Tugas8/TUGAS6_2018094-main/app/src/main/res/layout/activity_main2.xml" value="0.12" />
         <entry key="..\:/Users/asus/Music/Tugas8/TUGAS6_2018094-main/app/src/main/res/layout/activity_main3.xml" value="0.1" />
         <entry key="..\:/Users/asus/Music/Tugas8/TUGAS6_2018094-main/app/src/main/res/layout/item_zalora.xml" value="0.10326086956521739" />
         <entry key="..\:/Users/asus/Music/Tugas8/TUGAS6_2018094-main/app/src/main/res/layout/nav_header.xml" value="0.10326086956521739" />
         <entry key="..\:/Users/asus/Music/Tugas8/TUGAS6_2018094-main/app/src/main/res/layout/singledata.xml" value="0.25" />
         <entry key="..\:/Users/asus/Music/Tugas8/TUGAS6_2018094-main/app/src/main/res/menu/flow_menu.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/asus/Music/Tugas8/TUGAS6_2018094-main/app/src/main/res/menu/navigation_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/asus/Music/Tugas9/TUGAS6_2018094-main/app/src/main/res/drawable/ic_alarm.xml" value="0.116" />
+        <entry key="..\:/Users/asus/Music/Tugas9/TUGAS6_2018094-main/app/src/main/res/layout/activity_display_data.xml" value="0.10326086956521739" />
+        <entry key="..\:/Users/asus/Music/Tugas9/TUGAS6_2018094-main/app/src/main/res/layout/activity_main.xml" value="0.10326086956521739" />
+        <entry key="..\:/Users/asus/Music/Tugas9/TUGAS6_2018094-main/app/src/main/res/layout/activity_main2.xml" value="0.9193548387096774" />
+        <entry key="..\:/Users/asus/Music/Tugas9/TUGAS6_2018094-main/app/src/main/res/layout/activity_main3.xml" value="0.1" />
+        <entry key="..\:/Users/asus/Music/Tugas9/TUGAS6_2018094-main/app/src/main/res/layout/activity_main4.xml" value="0.33" />
+        <entry key="..\:/Users/asus/Music/Tugas9/TUGAS6_2018094-main/app/src/main/res/layout/item_zalora.xml" value="0.10326086956521739" />
+        <entry key="..\:/Users/asus/Music/Tugas9/TUGAS6_2018094-main/app/src/main/res/layout/nav_header.xml" value="0.10326086956521739" />
+        <entry key="..\:/Users/asus/Music/Tugas9/TUGAS6_2018094-main/app/src/main/res/layout/singledata.xml" value="0.10326086956521739" />
+        <entry key="..\:/Users/asus/Music/Tugas9/TUGAS6_2018094-main/app/src/main/res/menu/flow_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/asus/Music/Tugas9/TUGAS6_2018094-main/app/src/main/res/menu/navigation_menu.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>

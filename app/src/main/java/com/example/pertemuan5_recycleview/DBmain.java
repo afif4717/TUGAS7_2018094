@@ -4,9 +4,10 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import androidx.annotation.Nullable;
+
 public class DBmain extends SQLiteOpenHelper {
     public static final String DBNAME="Zalora.db";
-    public static final String TABLENAME="Home";
+    public static final String TABLENAME="Jenis";
     public static final int VER=1;
     public DBmain(@Nullable Context context) {
         super(context, DBNAME, null, VER);
@@ -16,8 +17,7 @@ public class DBmain extends SQLiteOpenHelper {
         db.execSQL(query);
     }
     @Override
-    public void onUpgrade(SQLiteDatabase db, int oldVersion, int
-            newVersion) {
+    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         String query = "drop table if exists "+TABLENAME+"";
         db.execSQL(query);
         onCreate(db);
